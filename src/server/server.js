@@ -99,6 +99,7 @@ app.all("*", (req, res, next) => {
 //==============================================================
 
 app.use("/auth", require("./api/auth.js"));
+app.use("/tasks", require("./api/tasks.js"));
 
 app.listen(9000, function() {
 	console.log("Example app listening on port 9000!");
