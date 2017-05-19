@@ -14,10 +14,10 @@ const Icon = styled(Link)`
 `;
 const Header = props => (
 	<div>
-		<Half><Icon to="/">React Boilerplate 2017</Icon></Half>
+		<Half><Icon to="/">Team Task Visualiser (temp name)</Icon></Half>
 		<Half>
 			<Quarter> <Link to="/">Home</Link> </Quarter>
-			<Quarter><Link to="/tasks">About</Link></Quarter>
+			<Quarter><Link to="/tasks">Tasks</Link></Quarter>
 			<Quarter>
 				<a
 					href="/"
