@@ -25,7 +25,8 @@
     "reactabular-table": "^8.9.0",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
-    "styled-components": "^1.4.6"
+    "styled-components": "^1.4.6",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
@@ -38,6 +39,9 @@
     "eject": "react-scripts eject",
     "dev": "npm run dev:client & npm run dev:server",
     "dev:client": "npm run start",
-    "dev:server": "nodemon src/server/server.js"
-  }
+    "dev:server": "nodemon src/server/server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
